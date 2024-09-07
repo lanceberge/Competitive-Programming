@@ -1,13 +1,10 @@
-#include <iostream>
-#include <stdexcept>
-#include <vector>
+#include <bits/stdc++.h>
+
+using namespace std;
 
 /*
 Find the average of all contiguous subarrays in arr
 */
-
-using namespace std;
-
 vector<double> findAverages(int K, const vector<int> &arr) {
   double sum = 0;
   vector<double> result(arr.size() - K + 1);
