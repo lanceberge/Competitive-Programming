@@ -20,7 +20,7 @@ private:
   /*
     At every index, do a recursive call both excluding and including the
     current index. Thus we get the profit of every subset. We save
-    Time Complexity: N * C
+    Time Complexity: O(N * C)
   */
   int knapsackRecursive(vector<vector<int>> &dp, const vector<int> &weights,
                         const vector<int> &profits, int C, int idx) {
